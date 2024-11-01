@@ -48,25 +48,34 @@ This project includes:
 
 ## Functions
 
-Here’s a list of all the functions included in **Libft**:
+Here’s a list of all the functions included in **Libft** with a brief description:
 
-| **Function**         | **Function**         | **Function**         |
-|----------------------|----------------------|----------------------|
-| `ft_atoi.c`          | `ft_bzero.c`         | `ft_calloc.c`        |
-| `ft_isalnum.c`       | `ft_isalpha.c`       | `ft_isascii.c`       |
-| `ft_isdigit.c`       | `ft_isprint.c`       | `ft_itoa.c`          |
-| `ft_lstadd_back.c`   | `ft_lstadd_front.c`  | `ft_lstclear.c`      |
-| `ft_lstdelone.c`     | `ft_lstiter.c`       | `ft_lstlast.c`       |
-| `ft_lstmap.c`        | `ft_lstnew.c`        | `ft_lstsize.c`       |
-| `ft_memchr.c`        | `ft_memcmp.c`        | `ft_memcpy.c`        |
-| `ft_memmove.c`       | `ft_memset.c`        | `ft_putchar_fd.c`    |
-| `ft_putendl_fd.c`    | `ft_putnbr_fd.c`     | `ft_putstr_fd.c`     |
-| `ft_split.c`         | `ft_strchr.c`        | `ft_strdup.c`        |
-| `ft_striteri.c`      | `ft_strjoin.c`       | `ft_strlcat.c`       |
-| `ft_strlcpy.c`       | `ft_strlen.c`        | `ft_strmapi.c`       |
-| `ft_strncmp.c`       | `ft_strnstr.c`       | `ft_strrchr.c`       |
-| `ft_strtrim.c`       | `ft_substr.c`        | `ft_tolower.c`       |
-| `ft_toupper.c`       | `libft.h`            |                      |
+| **Function**        | **Description**                                                                                 |
+|---------------------|-------------------------------------------------------------------------------------------------|
+| `ft_atoi.c`         | 🇬🇧 <span style="color:green">Converts a string to an integer.</span> <br> 🇮🇹 <span style="color:blue">Converte una stringa in un intero.</span> |
+| `ft_bzero.c`        | 🇬🇧 <span style="color:green">Sets all bytes of a memory area to zero.</span> <br> 🇮🇹 <span style="color:blue">Imposta tutti i byte di un'area di memoria a zero.</span> |
+| `ft_calloc.c`       | 🇬🇧 <span style="color:green">Allocates and clears memory for an array.</span> <br> 🇮🇹 <span style="color:blue">Alloca e azzera la memoria per un array.</span> |
+| `ft_isalnum.c`      | 🇬🇧 <span style="color:green">Checks if a character is alphanumeric.</span> <br> 🇮🇹 <span style="color:blue">Verifica se un carattere è alfanumerico.</span> |
+| `ft_isalpha.c`      | 🇬🇧 <span style="color:green">Checks if a character is alphabetic.</span> <br> 🇮🇹 <span style="color:blue">Verifica se un carattere è alfabetico.</span> |
+| `ft_isascii.c`      | 🇬🇧 <span style="color:green">Checks if a character is in the ASCII set.</span> <br> 🇮🇹 <span style="color:blue">Verifica se un carattere è nel set ASCII.</span> |
+| `ft_isdigit.c`      | 🇬🇧 <span style="color:green">Checks if a character is a digit.</span> <br> 🇮🇹 <span style="color:blue">Verifica se un carattere è un numero.</span> |
+| `ft_isprint.c`      | 🇬🇧 <span style="color:green">Checks if a character is printable.</span> <br> 🇮🇹 <span style="color:blue">Verifica se un carattere è stampabile.</span> |
+| `ft_itoa.c`         | 🇬🇧 <span style="color:green">Converts an integer to a string.</span> <br> 🇮🇹 <span style="color:blue">Converte un intero in una stringa.</span> |
+| `ft_lstadd_back.c`  | 🇬🇧 <span style="color:green">Adds a new element at the end of a list.</span> <br> 🇮🇹 <span style="color:blue">Aggiunge un nuovo elemento alla fine di una lista.</span> |
+| `ft_lstadd_front.c` | 🇬🇧 <span style="color:green">Adds a new element at the beginning of a list.</span> <br> 🇮🇹 <span style="color:blue">Aggiunge un nuovo elemento all'inizio di una lista.</span> |
+| `ft_lstclear.c`     | 🇬🇧 <span style="color:green">Clears and frees an entire list.</span> <br> 🇮🇹 <span style="color:blue">Libera tutta la memoria occupata da una lista.</span> |
+| `ft_lstdelone.c`    | 🇬🇧 <span style="color:green">Deletes a single element from a list.</span> <br> 🇮🇹 <span style="color:blue">Cancella un singolo elemento da una lista.</span> |
+| `ft_memchr.c`       | 🇬🇧 <span style="color:green">Searches for a character in a memory area.</span> <br> 🇮🇹 <span style="color:blue">Cerca un carattere in un'area di memoria.</span> |
+| `ft_memcmp.c`       | 🇬🇧 <span style="color:green">Compares two memory areas.</span> <br> 🇮🇹 <span style="color:blue">Confronta due aree di memoria.</span> |
+| `ft_memcpy.c`       | 🇬🇧 <span style="color:green">Copies memory from one area to another.</span> <br> 🇮🇹 <span style="color:blue">Copia la memoria da un'area a un'altra.</span> |
+| `ft_memset.c`       | 🇬🇧 <span style="color:green">Fills a memory area with a specific value.</span> <br> 🇮🇹 <span style="color:blue">Riempe un'area di memoria con un valore specifico.</span> |
+| `ft_putchar_fd.c`   | 🇬🇧 <span style="color:green">Writes a character to a file descriptor.</span> <br> 🇮🇹 <span style="color:blue">Scrive un carattere su un file descriptor.</span> |
+| `ft_putendl_fd.c`   | 🇬🇧 <span style="color:green">Writes a string followed by a newline to a file descriptor.</span> <br> 🇮🇹 <span style="color:blue">Scrive una stringa seguita da un newline su un file descriptor.</span> |
+| `ft_putnbr_fd.c`    | 🇬🇧 <span style="color:green">Writes an integer to a file descriptor.</span> <br> 🇮🇹 <span style="color:blue">Scrive un intero su un file descriptor.</span> |
+| `ft_split.c`        | 🇬🇧 <span style="color:green">Splits a string into an array of strings based on a delimiter.</span> <br> 🇮🇹 <span style="color:blue">Divide una stringa in un array di stringhe in base a un delimitatore.</span> |
+| `ft_strjoin.c`      | 🇬🇧 <span style="color:green">Concatenates two strings into a new string.</span> <br> 🇮🇹 <span style="color:blue">Concatena due stringhe in una nuova stringa.</span> |
+| `ft_strlen.c`       | 🇬🇧 <span style="color:green">Calculates the length of a string.</span> <br> 🇮🇹 <span style="color:blue">Calcola la lunghezza di una stringa.</span> |
+
 
 ---
 
