@@ -1,29 +1,70 @@
 # LIBFT
 
 
-Benvenuti nel mio progetto Libft! Questo è uno dei primi progetti che ho affrontato alla 42 School, e il suo obiettivo è creare una libreria C personale con tutte le funzioni fondamentali che mi serviranno in futuro. Mi è stato chiesto di ricostruire alcune delle funzioni di base della libreria standard C e di aggiungerne altre utili, così da avere a disposizione uno strumento potente e flessibile per i prossimi progetti.
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Language](https://img.shields.io/badge/language-C-blue)
 
-cosa c'è in questo progetto:
+> **Libft** is my first project at 42 School, where I created a custom C library. This project includes essential functions from the standard library and additional utilities that I will use in future projects. The objective is to deepen my knowledge of C, memory management, and function handling.
 
-Funzioni standard: Il progetto richiede la riscrittura di alcune delle funzioni classiche di <string.h>, come strlen, strcpy, strcat, strchr, ecc. Questo mi ha permesso di approfondire il loro funzionamento e capire meglio come sono costruite.
+---
 
-Funzioni di manipolazione della memoria: Qui ho incluso funzioni come malloc, free, memset, bzero, e memcpy, tra le altre. Il progetto richiede l’implementazione di queste funzioni per approfondire la gestione della memoria in C, una delle parti più impegnative e fondamentali del linguaggio.
+## Table of Contents
 
-Funzioni extra: Il progetto prevede l’aggiunta di alcune funzioni utili come ft_substr, ft_strjoin, ft_split, ecc., che ampliano le funzionalità della libreria standard e risultano comode in molti progetti.
+- [About](#about)
+- [Features](#features)
+- [Functions](#functions)
+- [Compilation](#compilation)
+- [Usage](#usage)
 
-Funzioni bonus: Per rendere la libreria ancora più completa, il progetto richiede anche l’implementazione di alcune strutture dati come le liste concatenate (linked lists) e delle relative funzioni per gestirle. Questo mi ha permesso di esercitarmi nella gestione dinamica della memoria e nella costruzione di strutture dati in C.
+---
 
-Perché questo progetto?
-L'obiettivo principale di Libft per me è stato:
+## About
 
-Sviluppare una maggiore familiarità con il C e migliorare le mie abilità nella gestione della memoria.
-Costruire una libreria personale di funzioni che potrò riutilizzare e ampliare in futuro.
-Migliorare le mie pratiche di programmazione, scrivendo codice leggibile, documentato e organizzato.
-Compilazione e utilizzo
-Ho creato un Makefile per automatizzare la compilazione. Basta eseguire il comando:
+This project includes:
+- **Standard functions**: Recreating basic C library functions.
+- **Memory functions**: Functions to manage memory allocation and manipulation.
+- **Extra utilities**: Additional string manipulation functions and other utilities.
+- **Bonus functions**: Handling linked lists and other data structures.
 
-bash
-Copia codice
+## Features
+
+| Function Group         | Description                                               | Example                  |
+|------------------------|-----------------------------------------------------------|--------------------------|
+| **String Manipulation**| Manipulates and analyzes strings in various ways.         | `ft_strlen`, `ft_strcpy` |
+| **Memory Management**  | Handles memory allocation, deallocation, and copying.     | `ft_memset`, `ft_calloc` |
+| **Character Checks**   | Checks properties of characters (e.g., `isalnum`, `isdigit`). | `ft_isalpha`, `ft_isdigit` |
+| **Linked Lists**       | Implements functions for linked list management.          | `ft_lstadd`, `ft_lstdelone` |
+
+---
+
+## Functions
+
+Here’s a list of all the functions included in **Libft**:
+
+| **Function**         | **Function**         | **Function**         |
+|----------------------|----------------------|----------------------|
+| `ft_atoi.c`          | `ft_bzero.c`         | `ft_calloc.c`        |
+| `ft_isalnum.c`       | `ft_isalpha.c`       | `ft_isascii.c`       |
+| `ft_isdigit.c`       | `ft_isprint.c`       | `ft_itoa.c`          |
+| `ft_lstadd_back.c`   | `ft_lstadd_front.c`  | `ft_lstclear.c`      |
+| `ft_lstdelone.c`     | `ft_lstiter.c`       | `ft_lstlast.c`       |
+| `ft_lstmap.c`        | `ft_lstnew.c`        | `ft_lstsize.c`       |
+| `ft_memchr.c`        | `ft_memcmp.c`        | `ft_memcpy.c`        |
+| `ft_memmove.c`       | `ft_memset.c`        | `ft_putchar_fd.c`    |
+| `ft_putendl_fd.c`    | `ft_putnbr_fd.c`     | `ft_putstr_fd.c`     |
+| `ft_split.c`         | `ft_strchr.c`        | `ft_strdup.c`        |
+| `ft_striteri.c`      | `ft_strjoin.c`       | `ft_strlcat.c`       |
+| `ft_strlcpy.c`       | `ft_strlen.c`        | `ft_strmapi.c`       |
+| `ft_strncmp.c`       | `ft_strnstr.c`       | `ft_strrchr.c`       |
+| `ft_strtrim.c`       | `ft_substr.c`        | `ft_tolower.c`       |
+| `ft_toupper.c`       | `libft.h`            |                      |
+
+---
+
+## Compilation
+
+To compile the library, run the following command:
+
+```bash
 make
-Questo comando genererà libft.a, il file che contiene la libreria pronta per essere utilizzata in altri progetti. Ogni volta che mi servirà una funzione specifica, potrò semplicemente collegare questa libreria al progetto e usare le funzioni che ho scritto.
+
 
