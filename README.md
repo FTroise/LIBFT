@@ -5,6 +5,8 @@
 
 > **Libft** is my first project at 42 School, where I created a custom C library. This project includes essential functions from the standard library and additional utilities that I will use in future projects. The objective is to deepen my knowledge of C, memory management, and function handling.
 
+> **Libft** è il mio primo progetto alla 42 School, dove ho creato una libreria C personalizzata. Questo progetto include funzioni essenziali della libreria standard e altre utility aggiuntive che userò nei progetti futuri. L’obiettivo è approfondire la mia conoscenza del C, della gestione della memoria e della manipolazione delle funzioni.
+
 ---
 
 ## Table of Contents
@@ -33,6 +35,14 @@ This project includes:
 | **Memory Management**  | Handles memory allocation, deallocation, and copying.     | `ft_memset`, `ft_calloc` |
 | **Character Checks**   | Checks properties of characters (e.g., `isalnum`, `isdigit`). | `ft_isalpha`, `ft_isdigit` |
 | **Linked Lists**       | Implements functions for linked list management.          | `ft_lstadd`, `ft_lstdelone` |
+
+| Gruppo di Funzioni       | Descrizione                                               | Esempio                   |
+|--------------------------|-----------------------------------------------------------|---------------------------|
+| **Manipolazione Stringhe** | Manipola e analizza le stringhe in vari modi.              | `ft_strlen`, `ft_strcpy`  |
+| **Gestione della Memoria** | Gestisce l’allocazione, deallocazione e copia della memoria. | `ft_memset`, `ft_calloc`  |
+| **Controllo Caratteri**    | Verifica le proprietà dei caratteri (ad esempio, `isalnum`, `isdigit`). | `ft_isalpha`, `ft_isdigit` |
+| **Liste Collegate**       | Implementa funzioni per la gestione delle liste concatenate. | `ft_lstadd`, `ft_lstdelone` |
+
 
 ---
 
